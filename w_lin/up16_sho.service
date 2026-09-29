@@ -1,0 +1,13 @@
+[Unit]
+Description=abc16_sho
+
+[Service]
+Type=simple
+PermissionsStartOnly=true
+User=root2
+ExecStart=/bin/bash /home/www/w_pro/pro_abcerp/codes/v1/v1.0_abcerp16/w_lin/start16_sho.sh
+
+#StandardOutput=journal+console
+
+[Install]
+WantedBy=multi-user.target

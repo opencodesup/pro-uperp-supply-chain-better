@@ -1,0 +1,10 @@
+[Unit]
+Description=up16_ts
+
+[Service]
+Type=simple
+User=root2
+ExecStart=/bin/bash /home/www/w_pro/pro_uperp/codes/v1.0/v1.0.0_uperp16/w_lin/start16_ts.sh
+
+[Install]
+WantedBy=multi-user.target

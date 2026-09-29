@@ -1,0 +1,167 @@
+2026-09-23 12:08:17,268 7688 INFO ? odoo.modules.loading: loading 1 modules... 
+2026-09-23 12:08:17,282 7688 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-09-23 12:08:17,328 7688 INFO ? odoo.modules.loading: loading 8 modules... 
+2026-09-23 12:08:18,039 7688 INFO ? odoo.modules.loading: 8 modules loaded in 0.71s, 0 queries (+0 extra) 
+2026-09-23 12:08:18,181 7688 INFO ? odoo.modules.loading: Modules loaded. 
+2026-09-23 12:08:18,208 7688 INFO ? odoo.modules.registry: Registry loaded in 1.310s 
+2026-09-23 12:08:18,211 7688 INFO dev_up16_v1_dev odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-09-23 12:08:18,752 7688 INFO dev_up16_v1_dev werkzeug: 127.0.0.1 - - [23/Sep/2026 12:08:18] "GET / HTTP/1.1" 303 - 27 0.245 1.902
+2026-09-23 12:08:19,092 7688 INFO dev_up16_v1_dev werkzeug: 127.0.0.1 - - [23/Sep/2026 12:08:19] "GET /web HTTP/1.1" 303 - 2 0.015 0.304
+2026-09-23 12:08:19,753 7688 WARNING dev_up16_v1_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='error' in template 185. Replace by @t-out 
+2026-09-23 12:08:19,756 7688 WARNING dev_up16_v1_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='message' in template 185. Replace by @t-out 
+2026-09-23 12:08:19,845 7688 WARNING dev_up16_v1_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="title or 'Abc'" in template 181. Replace by @t-out 
+2026-09-23 12:08:19,848 7688 WARNING dev_up16_v1_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='request.csrf_token(None)' in template 181. Replace by @t-out 
+2026-09-23 12:08:19,849 7688 WARNING dev_up16_v1_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='debug' in template 181. Replace by @t-out 
+2026-09-23 12:08:21,198 7688 INFO dev_up16_v1_dev odoo.addons.base.models.assetsbundle: Failed to find attachment for assets /web/assets/%-2e9311b/web.assets_frontend.min.css 
+2026-09-23 12:08:29,851 7688 INFO dev_up16_v1_dev odoo.addons.base.models.assetsbundle: Deleting ir.attachment [25] (from bundle web.assets_frontend) 
+2026-09-23 12:08:29,876 7688 INFO dev_up16_v1_dev odoo.addons.base.models.assetsbundle: Failed to find attachment for assets /web/assets/%-0c83f80/web.assets_frontend_minimal.min.js 
+2026-09-23 12:08:29,918 7688 INFO dev_up16_v1_dev odoo.addons.base.models.assetsbundle: Deleting ir.attachment [26] (from bundle web.assets_frontend_minimal) 
+2026-09-23 12:08:30,460 7688 INFO dev_up16_v1_dev odoo.addons.base.models.assetsbundle: Failed to find attachment for assets /web/assets/%-21f3354/web.assets_frontend_lazy.min.js 
+2026-09-23 12:08:32,132 7688 INFO dev_up16_v1_dev odoo.addons.base.models.assetsbundle: Deleting ir.attachment [27] (from bundle web.assets_frontend_lazy) 
+2026-09-23 12:08:32,140 7688 INFO dev_up16_v1_dev odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2026-09-23 12:08:32,311 7688 INFO dev_up16_v1_dev werkzeug: 127.0.0.1 - - [23/Sep/2026 12:08:32] "GET /web/login HTTP/1.1" 200 - 104 0.235 12.968
+2026-09-23 12:08:37,632 7688 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'ab_init_app', defaulting to LGPL-3 
+2026-09-23 12:08:37,633 7688 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'ab_init_app', defaulting to LGPL-3 
+2026-09-23 12:08:37,634 7688 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'ab_init_app', defaulting to LGPL-3 
+2026-09-23 12:08:37,905 7688 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'book_store', defaulting to LGPL-3 
+2026-09-23 12:08:37,905 7688 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'book_store', defaulting to LGPL-3 
+2026-09-23 12:08:37,907 7688 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'book_store', defaulting to LGPL-3 
+2026-09-23 12:08:37,922 7688 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'bug-manage', defaulting to LGPL-3 
+2026-09-23 12:08:37,924 7688 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'bug-manage', defaulting to LGPL-3 
+2026-09-23 12:08:37,925 7688 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'bug-manage', defaulting to LGPL-3 
+2026-09-23 12:08:37,938 7688 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'xxsapp', defaulting to LGPL-3 
+2026-09-23 12:08:37,938 7688 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'xxsapp', defaulting to LGPL-3 
+2026-09-23 12:08:37,945 7688 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'xxsapp', defaulting to LGPL-3 
+2026-09-23 12:08:38,043 7688 INFO ? werkzeug: 127.0.0.1 - - [23/Sep/2026 12:08:38] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 1 0.012 5.686
+2026-09-23 12:08:38,067 7688 INFO dev_up16_v1_dev werkzeug: 127.0.0.1 - - [23/Sep/2026 12:08:38] "GET /web/assets/34-2e9311b/web.assets_frontend.min.css HTTP/1.1" 200 - 18 0.038 5.665
+2026-09-23 12:08:38,095 7688 INFO dev_up16_v1_dev werkzeug: 127.0.0.1 - - [23/Sep/2026 12:08:38] "GET /web/binary/company_logo HTTP/1.1" 200 - 10 0.069 5.648
+2026-09-23 12:08:38,701 7688 INFO dev_up16_v1_dev werkzeug: 127.0.0.1 - - [23/Sep/2026 12:08:38] "GET /web/assets/35-0c83f80/web.assets_frontend_minimal.min.js HTTP/1.1" 200 - 6 0.028 0.573
+2026-09-23 12:08:39,296 7688 INFO ? werkzeug: 127.0.0.1 - - [23/Sep/2026 12:08:39] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 1 0.014 0.549
+2026-09-23 12:08:39,304 7688 INFO dev_up16_v1_dev werkzeug: 127.0.0.1 - - [23/Sep/2026 12:08:39] "GET /web/assets/36-21f3354/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 6 0.017 0.551
+2026-09-23 12:08:41,671 7688 INFO dev_up16_v1_dev werkzeug: 127.0.0.1 - - [23/Sep/2026 12:08:41] "GET /web/webclient/translations/1790165320123 HTTP/1.1" 200 - 6 0.019 1.518
+2026-09-23 12:08:41,948 7688 INFO dev_up16_v1_dev werkzeug: 127.0.0.1 - - [23/Sep/2026 12:08:41] "GET /web/webclient/translations/1790165321687 HTTP/1.1" 200 - 6 0.017 0.240
+2026-09-23 12:08:49,656 7688 INFO dev_up16_v1_dev odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2026-09-23 12:08:49,771 7688 INFO dev_up16_v1_dev odoo.addons.base.models.ir_attachment: _file_gc could not unlink e:\www\w_pro\w_pro_uperp\pro_uperp\codes\v1.0\v1.0.0_uperp16\storage\odoo\filestore\dev_up16_v1_dev\46/4606f8e73570183e80bd6d5ec22392ee84ef4570 
+Traceback (most recent call last):
+  File "E:\www\w_pro\w_pro_uperp\pro_uperp\codes\v1.0\v1.0.0_uperp16\odoo\addons\base\models\ir_attachment.py", line 209, in _gc_file_store_unsafe
+    os.unlink(self._full_path(fname))
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\storage\\odoo\\filestore\\dev_up16_v1_dev\\46/4606f8e73570183e80bd6d5ec22392ee84ef4570'
+2026-09-23 12:08:49,775 7688 INFO dev_up16_v1_dev odoo.addons.base.models.ir_attachment: _file_gc could not unlink e:\www\w_pro\w_pro_uperp\pro_uperp\codes\v1.0\v1.0.0_uperp16\storage\odoo\filestore\dev_up16_v1_dev\c2/c20b197e9a91efbce04135aa6c882b8d75527d8c 
+Traceback (most recent call last):
+  File "E:\www\w_pro\w_pro_uperp\pro_uperp\codes\v1.0\v1.0.0_uperp16\odoo\addons\base\models\ir_attachment.py", line 209, in _gc_file_store_unsafe
+    os.unlink(self._full_path(fname))
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\storage\\odoo\\filestore\\dev_up16_v1_dev\\c2/c20b197e9a91efbce04135aa6c882b8d75527d8c'
+2026-09-23 12:08:49,779 7688 INFO dev_up16_v1_dev odoo.addons.base.models.ir_attachment: _file_gc could not unlink e:\www\w_pro\w_pro_uperp\pro_uperp\codes\v1.0\v1.0.0_uperp16\storage\odoo\filestore\dev_up16_v1_dev\d4/d49ad2db9acf22efd645965eb040b46f43240cff 
+Traceback (most recent call last):
+  File "E:\www\w_pro\w_pro_uperp\pro_uperp\codes\v1.0\v1.0.0_uperp16\odoo\addons\base\models\ir_attachment.py", line 209, in _gc_file_store_unsafe
+    os.unlink(self._full_path(fname))
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。: 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\storage\\odoo\\filestore\\dev_up16_v1_dev\\d4/d49ad2db9acf22efd645965eb040b46f43240cff'
+2026-09-23 12:08:49,781 7688 INFO dev_up16_v1_dev odoo.addons.base.models.ir_attachment: filestore gc 4 checked, 0 removed 
+2026-09-23 12:08:49,940 7688 INFO dev_up16_v1_dev odoo.addons.base.models.res_users: GC'd 1 user log entries 
+2026-09-23 12:08:50,046 7688 INFO dev_up16_v1_dev odoo.models.unlink: User #1 deleted base.language.install records with IDs: [1] 
+2026-09-23 12:08:50,105 7688 INFO dev_up16_v1_dev odoo.addons.auth_totp.models.auth_totp: GC'd 0 totp devices entries 
+2026-09-23 12:08:50,177 7688 INFO dev_up16_v1_dev odoo.models.unlink: User #1 deleted bus.bus records with IDs: [1, 2, 3, 4, 5, 6, 7, 8] 
+2026-09-23 12:08:50,205 7688 INFO dev_up16_v1_dev odoo.addons.base.models.ir_cron: Job `Base: Auto-vacuum internal data` done. 
+2026-09-23 12:19:59,855 10704 INFO ? odoo: Odoo version 16.0-20250222 
+2026-09-23 12:19:59,856 10704 INFO ? odoo: Using configuration file at E:\www\w_pro\w_pro_uperp\pro_uperp\codes\v1.0\v1.0.0_uperp16\up_dev.conf 
+2026-09-23 12:19:59,856 10704 INFO ? odoo: addons paths: ['E:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\odoo\\addons', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\storage\\odoo\\addons\\16.0', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\fra_sys\\addons', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\addons\\extend_oca', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\addons\\extend_third', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\addons\\more_standard', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\addons\\more_special', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\addons\\more_trade', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\addons\\tmp_pre', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\addons\\tmp_sho', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\addons\\tmp_test', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\addons\\tmp_tmp', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\addons_dev\\dev_a', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\addons_dev\\dev_b', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\addons_dev\\dev_c', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\addons_dev\\dev_d', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\addons_dev\\dev_e', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\addons_dev\\dev_f', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\addons_dev\\dev_k', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\odoo\\addons'] 
+2026-09-23 12:19:59,857 10704 INFO ? odoo: database: erp_db@localhost:3308 
+2026-09-23 12:20:00,170 10704 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2026-09-23 12:20:00,664 10704 WARNING ? odoo.service.server: 'watchdog' module not installed. Code autoreload feature is disabled 
+2026-09-23 12:20:00,687 10704 INFO ? odoo.service.server: HTTP service (werkzeug) running on WIN-202504P9SZ03:9323 
+2026-09-23 12:20:58,751 10704 INFO ? odoo.modules.loading: loading 1 modules... 
+2026-09-23 12:20:58,761 10704 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-09-23 12:20:58,796 10704 INFO ? odoo.modules.loading: loading 8 modules... 
+2026-09-23 12:20:58,937 10704 INFO ? odoo.modules.loading: 8 modules loaded in 0.14s, 0 queries (+0 extra) 
+2026-09-23 12:20:59,003 10704 INFO ? odoo.modules.loading: Modules loaded. 
+2026-09-23 12:20:59,011 10704 INFO ? odoo.modules.registry: Registry loaded in 0.489s 
+2026-09-23 12:20:59,013 10704 INFO dev_up16_v1_dev odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-09-23 12:20:59,246 10704 INFO dev_up16_v1_dev werkzeug: 127.0.0.1 - - [23/Sep/2026 12:20:59] "GET / HTTP/1.1" 303 - 27 0.087 0.897
+2026-09-23 12:20:59,465 10704 INFO dev_up16_v1_dev werkzeug: 127.0.0.1 - - [23/Sep/2026 12:20:59] "GET /web HTTP/1.1" 303 - 2 0.010 0.198
+2026-09-23 12:21:00,051 10704 WARNING dev_up16_v1_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='error' in template 185. Replace by @t-out 
+2026-09-23 12:21:00,054 10704 WARNING dev_up16_v1_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='message' in template 185. Replace by @t-out 
+2026-09-23 12:21:00,104 10704 WARNING dev_up16_v1_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="title or 'Abc'" in template 181. Replace by @t-out 
+2026-09-23 12:21:00,106 10704 WARNING dev_up16_v1_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='request.csrf_token(None)' in template 181. Replace by @t-out 
+2026-09-23 12:21:00,106 10704 WARNING dev_up16_v1_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='debug' in template 181. Replace by @t-out 
+2026-09-23 12:21:01,813 10704 INFO dev_up16_v1_dev werkzeug: 127.0.0.1 - - [23/Sep/2026 12:21:01] "GET /web/login HTTP/1.1" 200 - 70 0.102 2.232
+2026-09-23 12:21:08,281 10704 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'ab_init_app', defaulting to LGPL-3 
+2026-09-23 12:21:08,293 10704 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'ab_init_app', defaulting to LGPL-3 
+2026-09-23 12:21:08,312 10704 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'ab_init_app', defaulting to LGPL-3 
+2026-09-23 12:21:08,542 10704 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'book_store', defaulting to LGPL-3 
+2026-09-23 12:21:08,543 10704 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'book_store', defaulting to LGPL-3 
+2026-09-23 12:21:08,544 10704 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'book_store', defaulting to LGPL-3 
+2026-09-23 12:21:08,555 10704 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'bug-manage', defaulting to LGPL-3 
+2026-09-23 12:21:08,555 10704 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'bug-manage', defaulting to LGPL-3 
+2026-09-23 12:21:08,556 10704 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'bug-manage', defaulting to LGPL-3 
+2026-09-23 12:21:08,573 10704 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'xxsapp', defaulting to LGPL-3 
+2026-09-23 12:21:08,574 10704 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'xxsapp', defaulting to LGPL-3 
+2026-09-23 12:21:08,575 10704 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'xxsapp', defaulting to LGPL-3 
+2026-09-23 12:21:08,647 10704 INFO ? werkzeug: 127.0.0.1 - - [23/Sep/2026 12:21:08] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 1 0.012 6.791
+2026-09-23 12:21:08,920 10704 INFO dev_up16_v1_dev werkzeug: 127.0.0.1 - - [23/Sep/2026 12:21:08] "GET /web/assets/34-2e9311b/web.assets_frontend.min.css HTTP/1.1" 200 - 6 0.031 7.025
+2026-09-23 12:21:08,934 10704 INFO dev_up16_v1_dev werkzeug: 127.0.0.1 - - [23/Sep/2026 12:21:08] "GET /web/binary/company_logo HTTP/1.1" 200 - 3 0.030 7.037
+2026-09-23 12:21:09,203 10704 INFO dev_up16_v1_dev werkzeug: 127.0.0.1 - - [23/Sep/2026 12:21:09] "GET /web/assets/35-0c83f80/web.assets_frontend_minimal.min.js HTTP/1.1" 200 - 6 0.020 0.241
+2026-09-23 12:21:09,647 10704 INFO ? werkzeug: 127.0.0.1 - - [23/Sep/2026 12:21:09] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 1 0.012 0.408
+2026-09-23 12:21:09,668 10704 INFO dev_up16_v1_dev werkzeug: 127.0.0.1 - - [23/Sep/2026 12:21:09] "GET /web/assets/36-21f3354/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 6 0.016 0.423
+2026-09-23 12:21:10,972 10704 INFO dev_up16_v1_dev werkzeug: 127.0.0.1 - - [23/Sep/2026 12:21:10] "GET /web/webclient/translations/1790166069913 HTTP/1.1" 200 - 6 0.015 1.037
+2026-09-23 12:21:11,180 10704 INFO dev_up16_v1_dev werkzeug: 127.0.0.1 - - [23/Sep/2026 12:21:11] "GET /web/webclient/translations/1790166070981 HTTP/1.1" 200 - 6 0.029 0.167
+2026-09-28 22:44:49,635 6944 INFO ? odoo: Odoo version 16.0-20250222 
+2026-09-28 22:44:49,637 6944 INFO ? odoo: Using configuration file at E:\www\w_pro\w_pro_uperp\pro_uperp\codes\v1.0\v1.0.0_uperp16\up_dev.conf 
+2026-09-28 22:44:49,637 6944 INFO ? odoo: addons paths: ['E:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\odoo\\addons', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\storage\\odoo\\addons\\16.0', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\fra_sys\\addons', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\addons\\extend_oca', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\addons\\extend_third', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\addons\\more_standard', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\addons\\more_special', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\addons\\more_trade', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\addons\\tmp_pre', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\addons\\tmp_sho', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\addons\\tmp_test', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\addons\\tmp_tmp', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\addons_dev\\dev_a', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\addons_dev\\dev_b', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\addons_dev\\dev_c', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\addons_dev\\dev_d', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\addons_dev\\dev_e', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\addons_dev\\dev_f', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\addons_dev\\dev_k', 'e:\\www\\w_pro\\w_pro_uperp\\pro_uperp\\codes\\v1.0\\v1.0.0_uperp16\\odoo\\addons'] 
+2026-09-28 22:44:49,637 6944 INFO ? odoo: database: erp_db@localhost:3308 
+2026-09-28 22:44:49,982 6944 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2026-09-28 22:44:50,546 6944 WARNING ? odoo.service.server: 'watchdog' module not installed. Code autoreload feature is disabled 
+2026-09-28 22:44:50,570 6944 INFO ? odoo.service.server: HTTP service (werkzeug) running on WIN-202504P9SZ03:9323 
+2026-09-28 22:45:19,764 6944 INFO ? odoo.modules.loading: loading 1 modules... 
+2026-09-28 22:45:19,777 6944 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-09-28 22:45:19,811 6944 INFO ? odoo.modules.loading: loading 8 modules... 
+2026-09-28 22:45:19,994 6944 INFO ? odoo.modules.loading: 8 modules loaded in 0.18s, 0 queries (+0 extra) 
+2026-09-28 22:45:20,099 6944 INFO ? odoo.modules.loading: Modules loaded. 
+2026-09-28 22:45:20,115 6944 INFO ? odoo.modules.registry: Registry loaded in 0.709s 
+2026-09-28 22:45:20,117 6944 INFO dev_up16_v1_dev odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-09-28 22:45:20,400 6944 INFO dev_up16_v1_dev werkzeug: 127.0.0.1 - - [28/Sep/2026 22:45:20] "GET / HTTP/1.1" 303 - 27 0.312 1.042
+2026-09-28 22:45:20,639 6944 INFO dev_up16_v1_dev werkzeug: 127.0.0.1 - - [28/Sep/2026 22:45:20] "GET /web HTTP/1.1" 303 - 2 0.011 0.214
+2026-09-28 22:45:21,246 6944 WARNING dev_up16_v1_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='error' in template 185. Replace by @t-out 
+2026-09-28 22:45:21,248 6944 WARNING dev_up16_v1_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='message' in template 185. Replace by @t-out 
+2026-09-28 22:45:21,314 6944 WARNING dev_up16_v1_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="title or 'Abc'" in template 181. Replace by @t-out 
+2026-09-28 22:45:21,315 6944 WARNING dev_up16_v1_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='request.csrf_token(None)' in template 181. Replace by @t-out 
+2026-09-28 22:45:21,316 6944 WARNING dev_up16_v1_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='debug' in template 181. Replace by @t-out 
+2026-09-28 22:45:22,260 6944 INFO dev_up16_v1_dev odoo.addons.base.models.assetsbundle: Failed to find attachment for assets /web/assets/%-41386c6/web.assets_frontend.min.css 
+2026-09-28 22:45:30,378 6944 INFO dev_up16_v1_dev odoo.addons.base.models.assetsbundle: Deleting ir.attachment [34] (from bundle web.assets_frontend) 
+2026-09-28 22:45:30,905 6944 INFO dev_up16_v1_dev odoo.addons.base.models.assetsbundle: Failed to find attachment for assets /web/assets/%-7703a38/web.assets_frontend_lazy.min.js 
+2026-09-28 22:45:32,595 6944 INFO dev_up16_v1_dev odoo.addons.base.models.assetsbundle: Deleting ir.attachment [36] (from bundle web.assets_frontend_lazy) 
+2026-09-28 22:45:32,602 6944 INFO dev_up16_v1_dev odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2026-09-28 22:45:32,761 6944 INFO dev_up16_v1_dev werkzeug: 127.0.0.1 - - [28/Sep/2026 22:45:32] "GET /web/login HTTP/1.1" 200 - 95 0.247 11.860
+2026-09-28 22:45:37,442 6944 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'ab_init_app', defaulting to LGPL-3 
+2026-09-28 22:45:37,442 6944 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'ab_init_app', defaulting to LGPL-3 
+2026-09-28 22:45:37,618 6944 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'book_store', defaulting to LGPL-3 
+2026-09-28 22:45:37,619 6944 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'book_store', defaulting to LGPL-3 
+2026-09-28 22:45:37,628 6944 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'bug-manage', defaulting to LGPL-3 
+2026-09-28 22:45:37,628 6944 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'bug-manage', defaulting to LGPL-3 
+2026-09-28 22:45:37,640 6944 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'xxsapp', defaulting to LGPL-3 
+2026-09-28 22:45:37,641 6944 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'xxsapp', defaulting to LGPL-3 
+2026-09-28 22:45:37,820 6944 INFO dev_up16_v1_dev werkzeug: 127.0.0.1 - - [28/Sep/2026 22:45:37] "GET /web/assets/37-41386c6/web.assets_frontend.min.css HTTP/1.1" 200 - 18 0.033 4.976
+2026-09-28 22:45:37,858 6944 INFO dev_up16_v1_dev werkzeug: 127.0.0.1 - - [28/Sep/2026 22:45:37] "GET /web/binary/company_logo HTTP/1.1" 304 - 10 0.061 4.983
+2026-09-28 22:45:38,427 6944 INFO dev_up16_v1_dev werkzeug: 127.0.0.1 - - [28/Sep/2026 22:45:38] "GET /web/assets/38-7703a38/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 6 0.023 0.257
+2026-09-28 22:45:39,311 6944 INFO dev_up16_v1_dev werkzeug: 127.0.0.1 - - [28/Sep/2026 22:45:39] "GET /web/webclient/locale/zh_CN HTTP/1.1" 200 - 2 0.015 0.514
+2026-09-28 22:45:40,698 6944 INFO dev_up16_v1_dev werkzeug: 127.0.0.1 - - [28/Sep/2026 22:45:40] "GET /web/webclient/translations/1790635538758 HTTP/1.1" 200 - 6 0.020 1.916
+2026-09-28 22:45:40,916 6944 INFO dev_up16_v1_dev werkzeug: 127.0.0.1 - - [28/Sep/2026 22:45:40] "GET /web/webclient/translations/1790635540710 HTTP/1.1" 200 - 6 0.011 0.191
+2026-09-28 22:45:51,388 6944 INFO dev_up16_v1_dev odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2026-09-28 22:45:51,475 6944 INFO dev_up16_v1_dev odoo.addons.base.models.ir_attachment: filestore gc 2 checked, 0 removed 
+2026-09-28 22:45:51,602 6944 INFO dev_up16_v1_dev odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2026-09-28 22:45:51,691 6944 INFO dev_up16_v1_dev odoo.addons.auth_totp.models.auth_totp: GC'd 0 totp devices entries 
+2026-09-28 22:45:51,721 6944 INFO dev_up16_v1_dev odoo.addons.base.models.ir_cron: Job `Base: Auto-vacuum internal data` done. 
+2026-09-28 22:48:21,135 6944 INFO dev_up16_v1_dev werkzeug: 127.0.0.1 - - [28/Sep/2026 22:48:21] "GET /web/database/manager HTTP/1.1" 200 - 5 0.029 3.454
+2026-09-28 22:48:22,589 6944 INFO ? werkzeug: 127.0.0.1 - - [28/Sep/2026 22:48:22] "GET /web/static/src/libs/fontawesome/css/font-awesome.css HTTP/1.1" 200 - 1 0.014 1.407
+2026-09-28 22:48:22,600 6944 INFO ? werkzeug: 127.0.0.1 - - [28/Sep/2026 22:48:22] "GET /web/static/lib/jquery/jquery.js HTTP/1.1" 200 - 1 0.011 1.413
+2026-09-28 22:48:22,601 6944 INFO ? werkzeug: 127.0.0.1 - - [28/Sep/2026 22:48:22] "GET /web/static/lib/bootstrap/js/dist/dom/data.js HTTP/1.1" 200 - 1 0.015 1.404
+2026-09-28 22:48:22,605 6944 INFO ? werkzeug: 127.0.0.1 - - [28/Sep/2026 22:48:22] "GET /web/static/lib/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 - 1 0.014 1.418
+2026-09-28 22:48:22,610 6944 INFO ? werkzeug: 127.0.0.1 - - [28/Sep/2026 22:48:22] "GET /web/static/lib/bootstrap/js/dist/dom/manipulator.js HTTP/1.1" 200 - 1 0.015 1.409
+2026-09-28 22:48:22,614 6944 INFO ? werkzeug: 127.0.0.1 - - [28/Sep/2026 22:48:22] "GET /web/static/lib/bootstrap/js/dist/dom/event-handler.js HTTP/1.1" 200 - 1 0.013 1.418
+2026-09-28 22:48:23,523 6944 INFO ? werkzeug: 127.0.0.1 - - [28/Sep/2026 22:48:23] "GET /web/static/lib/bootstrap/js/dist/dom/selector-engine.js HTTP/1.1" 200 - 1 0.010 0.882
+2026-09-28 22:48:23,540 6944 INFO ? werkzeug: 127.0.0.1 - - [28/Sep/2026 22:48:23] "GET /web/static/lib/bootstrap/js/dist/base-component.js HTTP/1.1" 200 - 1 0.013 0.856
+2026-09-28 22:48:23,541 6944 INFO ? werkzeug: 127.0.0.1 - - [28/Sep/2026 22:48:23] "GET /web/static/src/public/database_manager.js HTTP/1.1" 200 - 1 0.016 0.839
+2026-09-28 22:48:23,541 6944 INFO ? werkzeug: 127.0.0.1 - - [28/Sep/2026 22:48:23] "GET /web/static/lib/bootstrap/js/dist/modal.js HTTP/1.1" 200 - 1 0.011 0.847
+2026-09-28 22:48:23,989 6944 INFO ? werkzeug: 127.0.0.1 - - [28/Sep/2026 22:48:23] "GET /web/static/img/logo.png HTTP/1.1" 200 - 1 0.017 0.388
+2026-09-28 22:48:56,301 6944 INFO None werkzeug: 127.0.0.1 - - [28/Sep/2026 22:48:56] "POST /web/database/change_password HTTP/1.1" 303 - 2 0.013 5.978
+2026-09-28 22:48:59,752 6944 INFO dev_up16_v1_dev werkzeug: 127.0.0.1 - - [28/Sep/2026 22:48:59] "GET /web/database/manager HTTP/1.1" 200 - 5 0.027 3.413
+2026-09-28 22:56:32,953 6944 INFO dev_up16_v1_dev werkzeug: 127.0.0.1 - - [28/Sep/2026 22:56:32] "GET /web/database/manager HTTP/1.1" 200 - 5 0.036 9.797
