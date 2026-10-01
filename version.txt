@@ -4,7 +4,7 @@
 ====================================
 
 1、系统版本
-up version: v1.0
+up version: v1.0.0
 base version: 16.0
 sysc version：20250222
 
